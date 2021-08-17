@@ -41,7 +41,7 @@
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 25%;
+  flex: 33.33%;
   padding: 5px;
 }
 
@@ -67,9 +67,6 @@
 
 .box{
     box-sizing: border-box;
-    
-    float: left;
-
 }
 
 .content{
