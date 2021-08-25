@@ -1,19 +1,28 @@
-
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Header from 'C:/Users/HI/newapp/src/components/heading.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './component/login.js';
-import Header from './component/heading.js';
-import Signup  from './component/signup';
-import Footer from './component/footer';
+import Login from './components/login.js';
+import Signup  from './components/signup.js';
+import Footer from './components/footer.js';
 import { Container,Row,Col, Button,Alert,Breadcrumb,Card, FormLabel, Form } from 'react-bootstrap'; 
+import image6 from "C:/Users/HI/newapp/src/images/nat1.jpg"
+import image7 from "C:/Users/HI/newapp/src/images/nat2.jpg"
+import image8 from "C:/Users/HI/newapp/src/images/nat3.jpg"
+import image9 from "C:/Users/HI/newapp/src/images/nat10.jpg"
+import image10 from "C:/Users/HI/newapp/src/images/nat5.jpg"
+import image11 from "C:/Users/HI/newapp/src/images/nat6.jpg"
+import image12 from "C:/Users/HI/newapp/src/images/nat7.jpg"
+import image13 from "C:/Users/HI/newapp/src/images/nat8.jpg"
+import image14 from "C:/Users/HI/newapp/src/images/nat11.jpg"
 
 function App() {
   return (
-    <div >  
+    <div className="App">
+      
       <header className="App-header">
-        <Container>
+      <Container>
         <Login />
         <Header />
 <br/> <br/><br/><br/><br/><br/><br/>
@@ -41,33 +50,33 @@ function App() {
 <div className="box">
 <div class="row">
   <div class="column">
-    <img src="images1.jpg" alt="roger"/>
+    <img src={image6} alt="nat1"/>
   </div>
   <div class="column">
-    <img src="images2.jpg" alt="roger2"/>
+    <img src={image7} alt="nat2"/>
   </div>
   <div class="column">
-    <img src="images3.jpg" alt="roger3"/>
-  </div>
-  <br/>
-  <div class="column">
-    <img src="federer-reuters-fourth-round.jpg" alt="roger4"/>
-  </div>
-  <div class="column">
-    <img src="federer-reuters-fourth-round.jpg" alt="roger5"/>
-  </div>
-  <div class="column">
-    <img src="Federer.jpg" alt="roger6"/>
+    <img src={image8} alt="nat3"/>
   </div>
   <br/>
   <div class="column">
-    <img src="roger-federer-fb.jpg" alt="roger7"/>
+    <img src={image9} alt="nat4"/>
   </div>
   <div class="column">
-    <img src="Roger-Federer-Wimbledon-2021.webp" alt="roger8"/>
+    <img src={image10} alt="nat5"/>
   </div>
   <div class="column">
-    <img src="merlin_188806203_00eef947-70cd-4de1-b32d-a3d1afbaf240-mediumSquareAt3X.jpg" alt="roger9"/>
+    <img src={image11} alt="nat6"/>
+  </div>
+  <br/>
+  <div class="column">
+    <img src={image12} alt="nat7"/>
+  </div>
+  <div class="column">
+    <img src={image13} alt="nat8"/>
+  </div>
+  <div class="column">
+    <img src={image14} alt="nat9"/>
     </div>  
 </div>
 </div>
@@ -76,10 +85,11 @@ function App() {
 <Signup />
 <Footer />
       </Container>
+      
+       
       </header>
     </div>
   );
 }
 
 export default App;
-

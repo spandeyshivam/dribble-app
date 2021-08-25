@@ -63,6 +63,14 @@
 }
 .footimg{
   float:left;
+  padding:1px;
+}
+.Hire{
+  margin: 170px;
+}
+.GP{
+  float:left;
+  margin:100px;
 }
 
 .box{
