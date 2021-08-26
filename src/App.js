@@ -1,21 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Header from 'C:/Users/HI/newapp/src/components/heading.js'
+import Header from './components/heading.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/login.js';
 import Signup  from './components/signup.js';
 import Footer from './components/footer.js';
 import { Container,Row,Col, Button,Alert,Breadcrumb,Card, FormLabel, Form } from 'react-bootstrap'; 
-import image6 from "C:/Users/HI/newapp/src/images/nat1.jpg"
-import image7 from "C:/Users/HI/newapp/src/images/nat2.jpg"
-import image8 from "C:/Users/HI/newapp/src/images/nat3.jpg"
-import image9 from "C:/Users/HI/newapp/src/images/nat10.jpg"
-import image10 from "C:/Users/HI/newapp/src/images/nat5.jpg"
-import image11 from "C:/Users/HI/newapp/src/images/nat6.jpg"
-import image12 from "C:/Users/HI/newapp/src/images/nat7.jpg"
-import image13 from "C:/Users/HI/newapp/src/images/nat8.jpg"
-import image14 from "C:/Users/HI/newapp/src/images/nat11.jpg"
+import image6 from "./components/images/nat1.jpg";
+import image7 from "./components/images/nat2.jpg";
+import image8 from "./components/images/nat3.jpg";
+import image9 from "./components/images/nat10.jpg";
+import image10 from "./components/images/nat5.jpg";
+import image11 from "./components/images/nat6.jpg";
+import image12 from "./components/images/nat7.jpg";
+import image13 from "./components/images/nat8.jpg";
+import image14 from "./components/images/nat11.jpg";
+
 
 function App() {
   return (

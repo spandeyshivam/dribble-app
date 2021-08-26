@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "C:/Users/HI/newapp/src/images/pic1.jpg";
+import image from "./images/pic1.jpg";
 
 
 

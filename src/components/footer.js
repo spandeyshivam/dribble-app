@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from "C:/Users/HI/newapp/src/images/insta.png";
-import image2 from "C:/Users/HI/newapp/src/images/tweet.jpg";
-import image5 from "C:/Users/HI/newapp/src/images/Screenshot 2021-08-26 014323.png";
+import image1 from "./images/insta.png";
+import image2 from "./images/tweet.jpg";
+import image5 from "./images/Screenshot 2021-08-26 014323.png";
 
 
 function Footer(){
